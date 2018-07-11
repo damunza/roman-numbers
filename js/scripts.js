@@ -32,7 +32,7 @@ while (num>0){//creates a loop that keeps executing as long as the condition is 
       roman=roman + lookUpObj[Object.keys(lookUpObj)[i]];
       num=num - Object.keys(lookUpObj)[i];
       break;
-    }
+    }//creates a block of code to be executed as long ass the conditions are met
   }
 }
 return roman;//returns roman numerals for the number entered
